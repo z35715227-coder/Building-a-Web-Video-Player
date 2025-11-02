@@ -1,0 +1,34 @@
+.video-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#myVideo {
+    width: 100%;
+    /* Hide the browser's native controls */
+    /* If you remove this, you'll see two sets of controls */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+#progressBar {
+    flex-grow: 1; /* Progress bar takes up most of the space */
+    margin: 0 10px;
+}
+
+#playPauseBtn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
